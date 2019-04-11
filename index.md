@@ -12,7 +12,7 @@ propagation is now completed at the radiology client centers. This process is co
 distributed split learning network is trained without looking at each others raw data.
 
 [![](https://img.youtube.com/vi/8GtJ1bWHZvg/0.jpg)](https://www.youtube.com/watch?v=8GtJ1bWHZvg)
-[![](https://img.youtube.com/vi/GiGlHuWOwME /0.jpg)](https://www.youtube.com/watch?v=GiGlHuWOwME)
+[![](https://img.youtube.com/vi/GiGlHuWOwME/0.jpg)](https://www.youtube.com/watch?v=GiGlHuWOwME)
 
 ## Split Learning Papers:
 
