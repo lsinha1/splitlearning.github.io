@@ -11,9 +11,9 @@ cut layer (and only these gradients) are sent back to radiology client centers. 
 propagation is now completed at the radiology client centers. This process is continued until the
 distributed split learning network is trained without looking at each others raw data.
 
-<iframe width="420" height="315"
+<a iframe width="420" height="315"
 src="https://www.youtube.com/watch?v=8GtJ1bWHZvg">
-</iframe> 
+</a> 
 
 ## Split Learning Papers:
 
