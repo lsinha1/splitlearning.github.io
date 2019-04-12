@@ -18,8 +18,7 @@
       We are already in the state of deploying our first splitlearning multi-organization (MIT-MGH) collaboration.
     What are the mid-term and final “exams” to check for success?
 
-## enter software links here
-<a href=""><p align="center"><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></p></a>
+<a href=""><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a>
 
 **Key idea:** In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
 any client that holds the raw data. This completes a round of forward propagation without sharing raw data. The gradients
