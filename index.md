@@ -53,7 +53,7 @@ multiple tasks, iii) learning without sharing labels, iv) multi-task split learn
 <p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="400"></p>
 
 ## Slides on split learning for data transparent ML
-<a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a><br /><br /><br /><br /><br />
+<p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a></p><br /><br /><br /><br /><br />
 
 ## Come join us to learn more:
 
