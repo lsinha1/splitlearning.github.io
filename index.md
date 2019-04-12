@@ -69,16 +69,16 @@ Versatile configurations of split learning configurations cater to various pract
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
 <p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="400"></p><br /><br />
 
-<br />
 ## Upcoming: CVPR Tutorial
 We are giving a half-day tutorial at CVPR 2019: 
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
 Brendan McMahan, Jakub Konečný, Ramesh Raskar, Otkrist Gupta, Hassan Takabi and Praneeth Vepakomma
 <br />
+
 ## Slides on split learning for data transparent ML
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a></p>
-
 <br />
+
 ## News stories
 **MIT Technology Review:** A new AI method can train on medical records without revealing patient data https://www.technologyreview.com/the-download/612567/a-new-ai-method-can-train-on-medical-records-without-revealing-patient-data/
 
