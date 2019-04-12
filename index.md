@@ -17,7 +17,7 @@ alt="Health Grid: Blockchain-based Data Marketplace | Ramesh Raskar | WEF 2019" 
 " target="_blank"><img src="http://img.youtube.com/vi/8GtJ1bWHZvg/0.jpg" 
 alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" border="10" /></a> <a href="http://www.youtube.com/watch?feature=player_embedded&v=7jWXaABY81I
 " target="_blank"><img src="http://img.youtube.com/vi/7jWXaABY81I/0.jpg" 
-alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" align=right border="10" /></a>
+alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" border="10" /></a>
 
 ## References
 <b>Split Learning Papers: </b>
@@ -53,7 +53,7 @@ multiple tasks, iii) learning without sharing labels, iv) multi-task split learn
 ![Split learning configurations](https://splitlearning.github.io/splitConfig.png)
 
 ## Slides on split learning for data transparent ML
-<a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a><br /><br /><br /><br /><br />
 
 ## News stories
 **MIT Technology Review:** A new AI method can train on medical records without revealing patient data https://www.technologyreview.com/the-download/612567/a-new-ai-method-can-train-on-medical-records-without-revealing-patient-data/
