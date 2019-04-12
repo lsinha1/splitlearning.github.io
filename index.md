@@ -45,13 +45,13 @@ batch synchronous SGD with a drastically smaller client side computational
 burden when training on a larger number of clients as shown below in terms of teraflops of computation and gigabytes of communication when split learning is used to train Resnet and VGG architectures over 100 and 500 clients with CIFAR 10 and CIFAR 100 datasets. 
 
 <p align="center"><img src="https://splitlearning.github.io/splitTable.png" height="320" width="600"></p>
-<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="380" width="700"></p>
-![](https://splitlearning.github.io/splitPlot.png)
+<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="350" width="700"></p>
 
 ## Versatile plug-and-play configurations of split learning
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
 ![Split learning configurations](https://splitlearning.github.io/splitConfig.png)
+<p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="320" width="600"></p>
 
 ## Slides on split learning for data transparent ML
 <a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" align="center" height="350" width="600" ></a><br /><br /><br /><br /><br />
