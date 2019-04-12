@@ -2,6 +2,21 @@
 
 **Abstract:** Split learning naturally allows for various configurations of cooperating entities to train (and infer from) machine learning  models without sharing any raw data or detailed information about the model. This method has been developed by the MIT Media Lab’s Camera Culture group.
 
+    Split learning naturally allows for various configurations of cooperating entities to train (and infer from) machine learning  models without sharing any raw data or detailed information about the model. This method has been developed by the MIT Media Lab’s Camera Culture group.
+
+    How is it done today, and what are the limits of current practice?
+    What is new in your approach and why do you think it will be successful?
+      As raw data is not shared between the cooperating entities, privacy is maintained and gives the poissibility to achieve a ubiquitous data network.
+    Who cares? If you are successful, what difference will it make?
+      If successfull, the entire AI community can gain from sharing a large database of information as a huge pool can be created by combing data from the cooperating entities.
+    What are the risks?
+      
+    How much will it cost?
+    
+    How long will it take?
+      We are already in the state of deploying our first splitlearning multi-organization 
+    What are the mid-term and final “exams” to check for success?
+
 <a href=""><p align="center"><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></p></a>
 
 **Key idea:** In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
