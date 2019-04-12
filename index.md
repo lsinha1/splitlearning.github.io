@@ -45,7 +45,7 @@ batch synchronous SGD with a drastically smaller client side computational
 burden when training on a larger number of clients as shown below in terms of teraflops of computation and gigabytes of communication when split learning is used to train Resnet and VGG architectures over 100 and 500 clients with CIFAR 10 and CIFAR 100 datasets. 
 
 ![]<p align="center"><img src="https://splitlearning.github.io/splitTable.png" height="320" width="600"></p>
-![]<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="300" width="600"></p>
+![]<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="280" width="600"></p>
 ![](https://splitlearning.github.io/splitPlot.png)
 
 ## Versatile plug-and-play configurations of split learning
