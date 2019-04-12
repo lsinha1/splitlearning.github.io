@@ -72,7 +72,7 @@ multiple tasks, iii) learning without sharing labels, iv) multi-task split learn
 ## Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”.
 We are giving a half-day tutorial at CVPR 2019: 
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
-Brendan McMahan (Google, USA), Jakub Konečný (Google, USA), Otkrist Gupta (LendBuzz), Ramesh Raskar (MIT Media Lab, Cambridge, Massachusetts, USA),Hassan Takabi (University of North Texas, Texas, USA) and Praneeth Vepakomma (MIT Media Lab, Cambridge, Massachusetts, USA).
+<b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b>Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
 <br />
 
 ## Slides on split learning for data transparent ML
