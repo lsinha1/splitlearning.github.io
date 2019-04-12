@@ -19,7 +19,8 @@ alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" 
 " target="_blank"><img src="http://img.youtube.com/vi/7jWXaABY81I/0.jpg" 
 alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" border="10" /></a>
 
-## Split Learning Papers:
+## References
+<b>Split Learning Papers </b>:
 
 1.) “Distributed learning of deep neural network over multiple agents”, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, [(PDF)](https://www.sciencedirect.com/science/article/pii/S1084804518301590 "Pdf") (2018)
 
@@ -27,7 +28,9 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" border="10
 
 3.) Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, [(PDF)](https://arxiv.org/pdf/1812.03288.pdf "Pdf") (2018)
 
-## AutoML Papers:
+AutoML Papers:
+
+1.)
 
 ## Split learning's computational and communication efficiency on clients:
 Client-side communication costs are significantly reduced as the data to be
