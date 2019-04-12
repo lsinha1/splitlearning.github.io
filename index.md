@@ -13,7 +13,7 @@ distributed split learning network is trained without looking at each others raw
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GiGlHuWOwME
 " target="_blank"><img src="http://img.youtube.com/vi/GiGlHuWOwME/0.jpg" 
-alt="Health Grid: Blockchain-based Data Marketplace | Ramesh Raskar | WEF 2019" width="240" height="180" border="10" /></a> &nbsp <a href="http://www.youtube.com/watch?feature=player_embedded&v=8GtJ1bWHZvg
+alt="Health Grid: Blockchain-based Data Marketplace | Ramesh Raskar | WEF 2019" width="240" height="180" border="10" /></a> <&nbsp> <a href="http://www.youtube.com/watch?feature=player_embedded&v=8GtJ1bWHZvg
 " target="_blank"><img src="http://img.youtube.com/vi/8GtJ1bWHZvg/0.jpg" 
 alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" border="10" /></a> <a href="http://www.youtube.com/watch?feature=player_embedded&v=7jWXaABY81I
 " target="_blank"><img src="http://img.youtube.com/vi/7jWXaABY81I/0.jpg" 
