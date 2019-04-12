@@ -8,13 +8,14 @@
     What is new in your approach and why do you think it will be successful?
       As raw data is not shared between the cooperating entities, privacy is maintained and gives the poissibility to achieve a ubiquitous data network.
     Who cares? If you are successful, what difference will it make?
+      Collusion resistance,transperancy, inclusiveness.
       If successfull, the entire AI community can gain from sharing a large database of information as a huge pool can be created by combing data from the cooperating entities.
     What are the risks?
-      
+      As we know big rewards require taking big risks. Some of which are this will allow lack of accountbaility and externalities.
     How much will it cost?
     
     How long will it take?
-      We are already in the state of deploying our first splitlearning multi-organization 
+      We are already in the state of deploying our first splitlearning multi-organization (MIT-MGH) collaboration.
     What are the mid-term and final “exams” to check for success?
 
 <a href=""><p align="center"><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></p></a>
