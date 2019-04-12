@@ -26,7 +26,7 @@ are now back propagated again from its last layer until the cut layer in a simil
 cut layer (and only these gradients) are sent back to radiology client centers. The rest of back
 propagation is now completed at the radiology client centers. This process is continued until the
 distributed split learning network is trained without looking at each others raw data.
-## https://github.com/splitlearning/splitlearning.github.io
+### https://github.com/splitlearning/splitlearning.github.io
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GiGlHuWOwME
 " target="_blank"><img src="http://img.youtube.com/vi/GiGlHuWOwME/0.jpg" 
