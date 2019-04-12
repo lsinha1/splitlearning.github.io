@@ -26,6 +26,7 @@ are now back propagated again from its last layer until the cut layer in a simil
 cut layer (and only these gradients) are sent back to radiology client centers. The rest of back
 propagation is now completed at the radiology client centers. This process is continued until the
 distributed split learning network is trained without looking at each others raw data.
+## https://github.com/splitlearning/splitlearning.github.io
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GiGlHuWOwME
 " target="_blank"><img src="http://img.youtube.com/vi/GiGlHuWOwME/0.jpg" 
@@ -73,7 +74,9 @@ multiple tasks, iii) learning without sharing labels, iv) multi-task split learn
 
 ## Come join us to learn more:
 
-<br /><br /><br />
+
+
+<br />
 ## News stories
 **MIT Technology Review:** A new AI method can train on medical records without revealing patient data https://www.technologyreview.com/the-download/612567/a-new-ai-method-can-train-on-medical-records-without-revealing-patient-data/
 
