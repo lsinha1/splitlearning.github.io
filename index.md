@@ -23,11 +23,11 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 <br /><br />
 
 ## Outline
-[Further Reading](#fr)
+- [Further Reading](#fr)
+
 <h2 id="fr">
-Optional Fields
+Further reading
 </h2>
-## Further reading
 ### Split Learning Papers 
 1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019)
 2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, [(PDF)](https://www.sciencedirect.com/science/article/pii/S1084804518301590 "Pdf") (2018)
