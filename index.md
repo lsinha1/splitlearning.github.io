@@ -20,6 +20,7 @@ alt="Health Grid: Blockchain-based Data Marketplace | Ramesh Raskar | WEF 2019" 
 alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" /></a> <a href="http://www.youtube.com/watch?feature=player_embedded&v=7jWXaABY81I
 " target="_blank"><img src="http://img.youtube.com/vi/7jWXaABY81I/0.jpg" 
 alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
+<br /><br />
 
 ## Further Reading
 ### Split Learning Papers 
@@ -36,11 +37,11 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" height="350" width="500" ></a></p>
 <br /><br /><br />
 
-### Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”
+## Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”
 We are giving a half-day tutorial at CVPR 2019: 
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
-<br /><br /><br />
+<br /><br />
 
 ## Split learning's computational and communication efficiency on clients
 Client-side communication costs are significantly reduced as the data to be
@@ -58,11 +59,11 @@ burden when training on a larger number of clients as shown below in terms of te
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
 <p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="400"></p><br /><br />
-<br /><br /><br />
+<br /><br />
 
 ## Frequently asked questions
 
-<br /><br /><br />
+<br /><br />
 
 ## News stories
 **MIT Technology Review:** A new AI method can train on medical records without revealing patient data https://www.technologyreview.com/the-download/612567/a-new-ai-method-can-train-on-medical-records-without-revealing-patient-data/
