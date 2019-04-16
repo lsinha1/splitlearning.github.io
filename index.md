@@ -25,20 +25,20 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 ## Outline
 - [Further Reading](#fr)
 
-<h2 id="fr">
-Further reading
-</h2>
-### Split Learning Papers 
+<h2 id="fr"> Further reading </h2>
+
+<h3> Split Learning Papers </h3>
+
 1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019)
 2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, [(PDF)](https://www.sciencedirect.com/science/article/pii/S1084804518301590 "Pdf") (2018)
 3. Split learning for health: Distributed deep learning without sharing raw patient data, Praneeth Vepakomma, Otkrist Gupta, Tristan Swedish, Ramesh Raskar, [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf") (2018)
 4. Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, [(PDF)](https://arxiv.org/pdf/1812.03288.pdf "Pdf") (2018)
 
-### AutoML Papers 
+<h3> AutoML Papers </h3>
 1. Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR, [(PDF)](https://arxiv.org/pdf/1705.10823.pdf "Pdf") (2018)
 2. Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR, [(PDF)](https://arxiv.org/pdf/1611.02167.pdf "Pdf") (2017)
 
-### Slides on split learning for data transparent ML
+<h3>  Slides on split learning for data transparent ML </h3> 
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" height="350" width="500" ></a></p>
 <br /><br />
 
