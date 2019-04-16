@@ -22,7 +22,12 @@ alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" 
 alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 <br /><br />
 
-## Further Reading
+## Outline
+[Further Reading](#fr)
+<h2 id="fr">
+Optional Fields
+</h2>
+## Further reading
 ### Split Learning Papers 
 1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019)
 2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, [(PDF)](https://www.sciencedirect.com/science/article/pii/S1084804518301590 "Pdf") (2018)
@@ -43,7 +48,7 @@ On Distributed Private Machine Learning for Computer Vision: Federated Learning,
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
 <br /><br />
 
-## Comparison
+## Efficiency and plug-and-play configurations of split learning
 ### Split learning's computational and communication efficiency on clients
 Client-side communication costs are significantly reduced as the data to be
 transmitted is restricted to initial layers of the split learning network (splitNN) prior to the split. The
@@ -55,11 +60,11 @@ burden when training on a larger number of clients as shown below in terms of te
 
 <p align="center"><img src="https://splitlearning.github.io/splitTable.png" height="320" width="600"></p>
 <p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="350" width="700"></p>
-
+<br />
 ### Versatile plug-and-play configurations of split learning
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
-<p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="350"></p><br /><br />
+<p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="350"></p>
 <br /><br />
 
 ## Frequently asked questions
