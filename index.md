@@ -2,7 +2,7 @@
 
 **Abstract:** Split learning naturally allows for various configurations of cooperating entities to train (and infer from) machine learning  models without sharing any raw data or detailed information about the model. This method has been developed by the MIT Media Lab’s Camera Culture group.
 
-<a href=""><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a>
+<a href="" align="center"><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a>
 
 **Key idea:** In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
 any client that holds the raw data. This completes a round of forward propagation without sharing raw data. The gradients
@@ -41,6 +41,7 @@ We are giving a half-day tutorial at CVPR 2019:
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
 <br /><br /><br />
+
 ## Split learning's computational and communication efficiency on clients
 Client-side communication costs are significantly reduced as the data to be
 transmitted is restricted to initial layers of the split learning network (splitNN) prior to the split. The
@@ -57,10 +58,11 @@ burden when training on a larger number of clients as shown below in terms of te
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
 <p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="400"></p><br /><br />
-
-<br /><br />
+<br /><br /><br />
 
 ## Frequently asked questions
+
+<br /><br /><br />
 
 ## News stories
 **MIT Technology Review:** A new AI method can train on medical records without revealing patient data https://www.technologyreview.com/the-download/612567/a-new-ai-method-can-train-on-medical-records-without-revealing-patient-data/
