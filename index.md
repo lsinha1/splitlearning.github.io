@@ -2,7 +2,7 @@
 
 **Abstract:** Split learning naturally allows for various configurations of cooperating entities to train (and infer from) machine learning  models without sharing any raw data or detailed information about the model. This method has been developed by the MIT Media Lab’s Camera Culture group.
 
-<a href="" align="center"><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a>
+<p align="center"><a href=""><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a></p>
 
 **Key idea:** In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
 any client that holds the raw data. This completes a round of forward propagation without sharing raw data. The gradients
@@ -35,7 +35,7 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 
 ### Slides on split learning for data transparent ML
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><img src="https://splitlearning.github.io/splitSlides.png" height="350" width="500" ></a></p>
-<br /><br /><br />
+<br /><br />
 
 ## Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”
 We are giving a half-day tutorial at CVPR 2019: 
@@ -43,7 +43,8 @@ On Distributed Private Machine Learning for Computer Vision: Federated Learning,
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
 <br /><br />
 
-## Split learning's computational and communication efficiency on clients
+## Comparison
+### Split learning's computational and communication efficiency on clients
 Client-side communication costs are significantly reduced as the data to be
 transmitted is restricted to initial layers of the split learning network (splitNN) prior to the split. The
 client-side computation costs of learning the weights of the network are also
@@ -55,13 +56,25 @@ burden when training on a larger number of clients as shown below in terms of te
 <p align="center"><img src="https://splitlearning.github.io/splitTable.png" height="320" width="600"></p>
 <p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="350" width="700"></p>
 
-## Versatile plug-and-play configurations of split learning
+### Versatile plug-and-play configurations of split learning
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
 multiple tasks, iii) learning without sharing labels, iv) multi-task split learning, v) multi-hop split learning** and other hybrid possibilities to name a few as shown below and further detailed in our paper here [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf")
-<p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="400"></p><br /><br />
+<p align="center"><img src="https://splitlearning.github.io/splitConfig.png" height="350"></p><br /><br />
 <br /><br />
 
 ## Frequently asked questions
+1. How is it done today and what are its limits?
+
+2. How does split learning work and what is new in our approach? 
+    • ( write in a way that shows why it will make our approach successful compared to the other ones)
+    • may be compare to other learning types if our approach is better.
+    
+3. How is privacy maintained and who can get impacted?
+    • Talk about application scenarios
+    
+4. What are the challenges and risks in the approach?
+
+5. How do we envision it (or how long will it take) to transition from laboratory setting to actual data transfer between cooperating entities?
 
 <br /><br />
 
