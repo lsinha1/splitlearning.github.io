@@ -69,6 +69,7 @@ The approach is easily deployable for inter and intra entity or organizational c
 We are giving a half-day tutorial at CVPR 2019: 
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
+https://nopeekcvpr.github.io
 <br /><br />
 
 <h3 id="sl"> Efficiency and plug-and-play configurations of split learning </h3>
