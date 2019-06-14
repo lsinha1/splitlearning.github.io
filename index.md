@@ -52,16 +52,16 @@ The approach is easily deployable for inter and intra entity or organizational c
 
 <h3 id="fr"> Further reading </h3>
 <h4> Split Learning Papers </h4>
-1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019)<br/>
-2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, [(PDF)](https://www.sciencedirect.com/science/article/pii/S1084804518301590 "Pdf") (2018)<br/>
-3. Split learning for health: Distributed deep learning without sharing raw patient data, Praneeth Vepakomma, Otkrist Gupta, Tristan Swedish, Ramesh Raskar, [(PDF)](https://arxiv.org/pdf/1812.00564.pdf "Pdf") (2018)<br/>
-4. Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, [(PDF)](https://arxiv.org/pdf/1812.03288.pdf "Pdf") (2018)<br/>
+1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019) <i> add in ref here </i><br/>
+2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, <a href="https://www.sciencedirect.com/science/article/pii/S1084804518301590">[PDF]</a> (2018) (2018)<br/>
+3. Split learning for health: Distributed deep learning without sharing raw patient data, Praneeth Vepakomma, Otkrist Gupta, Tristan Swedish, Ramesh Raskar,<a href="https://arxiv.org/pdf/1812.00564.pdf ">[PDF]</a> (2018)<br/>
+4. Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, <a href="https://arxiv.org/pdf/1812.03288.pdf ">[PDF]</a> (2018)<br/>
 
 <h4> AutoML Papers </h4>
-1. Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR, [(PDF)](https://arxiv.org/pdf/1705.10823.pdf "Pdf") (2018)<br/>
-2. Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR, [(PDF)](https://arxiv.org/pdf/1611.02167.pdf "Pdf") (2017)<br/>
+1. Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1705.10823.pdf ">[PDF]</a> (2018) <br/>
+2. Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1611.02167.pdf ">[PDF]</a> (2017) <br/>
 
-<p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h3>  Slides on split learning for data transparent ML </h3> </a></p>
+<p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h5>  Slides on split learning for data transparent ML </h5> </a></p>
 <br /><br />
 
 <h3 id="ut"> <strong> Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”</strong></h3>
@@ -71,7 +71,7 @@ On Distributed Private Machine Learning for Computer Vision: Federated Learning,
 <br /><br />
 
 <h3 id="sl"> Efficiency and plug-and-play configurations of split learning </h3>
-<h4> Split learning's computational and communication efficiency on clients </h44>
+<h4> Split learning's computational and communication efficiency on clients </h4>
 Client-side communication costs are significantly reduced as the data to be
 transmitted is restricted to initial layers of the split learning network (splitNN) prior to the split. The
 client-side computation costs of learning the weights of the network are also
@@ -81,7 +81,7 @@ batch synchronous SGD with a drastically smaller client side computational
 burden when training on a larger number of clients as shown below in terms of teraflops of computation and gigabytes of communication when split learning is used to train Resnet and VGG architectures over 100 and 500 clients with CIFAR 10 and CIFAR 100 datasets. 
 
 <p align="center"><img src="https://splitlearning.github.io/splitTable.png" height="320" width="600"></p>
-<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="350" width="600"></p>
+<p align="center"><img src="https://splitlearning.github.io/splitPlot.png" height="250" width="500"></p>
 <br />
 <h4> Versatile plug-and-play configurations of split learning </h4>
 Versatile configurations of split learning configurations cater to various practical settings of **i) multiple entities holding different modalities of patient data, ii) centralized and local health entities collaborating on
