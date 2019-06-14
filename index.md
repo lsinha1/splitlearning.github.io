@@ -5,19 +5,12 @@
 
 Split learning naturally allows for various configurations of cooperating entities to train (and infer from) machine learning  models without sharing any raw data or detailed information about the model. This method has been developed by the MIT Media Lab’s Camera Culture group.
 
-<h4> Team <h4>
+<h4> Team </h4>
     Ramesh Raskar, Associate Professor, MIT Media Lab; Project Director (raskar(at)mit.edu)<br>
     Praneeth Vepakomma,Research Assitant, MIT Media Lab<br>
-<h5> Current Collaborations <h5>
+<h5> Current Collaborations </h5>
     MGH <br>
     Martinos Center<br>
-
-**Abstract:**  In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
-any client that holds the raw data. This completes a round of forward propagation without sharing raw data. The gradients
-are now back propagated again from its last layer until the cut layer in a similar fashion. The gradients at the
-cut layer (and only these gradients) are sent back to radiology client centers. The rest of back
-propagation is now completed at the radiology client centers. This process is continued until the
-distributed split learning network is trained without looking at each others raw data.</font>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GiGlHuWOwME
 " target="_blank"><img src="http://img.youtube.com/vi/GiGlHuWOwME/0.jpg" 
@@ -28,6 +21,13 @@ alt="RAMESH RASKAR INTERVIEW WITH BLOXLIVE AT THE WEF" width="240" height="180" 
 alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 <br /><br />
 
+**Abstract:**  In the simplest of configurations of split learning, each client (for example, radiology center) trains a partial deep  network up to a specific layer known as the cut layer. The outputs at the cut layer are sent to another entity  (server/another client) which completes the rest of the training without looking at raw data from
+any client that holds the raw data. This completes a round of forward propagation without sharing raw data. The gradients
+are now back propagated again from its last layer until the cut layer in a similar fashion. The gradients at the
+cut layer (and only these gradients) are sent back to radiology client centers. The rest of back
+propagation is now completed at the radiology client centers. This process is continued until the
+distributed split learning network is trained without looking at each others raw data.</font>
+
 ## Outline
 - [Frequently asked questions](#faq)
 - [Upcoming tutorial](#ut)
@@ -36,13 +36,13 @@ alt="AI for All | Speedtalk | Ramesh Raskar" width="240" height="180" /></a>
 - [News](#news)
 
 <h3 id="faq"> Frequently asked questions </h3>
-1. <strong>How does split learning work and what is new in our approach? <strong><br>
+1. <strong>How does split learning work and what is new in our approach? </strong><br/>
     Split learning attains high resource efficiency for distributed deep learning in comparison to existing methods by splitting the models architecture across distributed entities. It only communicates activations and gradients just from the split layer unlike other popular methods that share weights/gradients from all the layers. Split learning requires no raw data sharing; either of labels or features.<br><br>
 
-2. <strong> How is raw data protected and who can get positively impacted? </strong><br>
-    Split learning requires absolutely no raw data sharing. Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br><br>
+2. <strong> How is raw data protected and who can get positively impacted? </strong><br/>
+    Split learning requires absolutely no raw data sharing. Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br /><br/>
 
-3.<strong> How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br><strong>
+3.<strong> How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
 The approach is easily deployable for inter and intra entity or organizational collaboration and is highly versatile in terms of possible network topologies. Due to its high resource efficiency in terms of computations, memory, communication bandwidth it is also naturally suitable for distributed learning where the clients are pervasive and ubiquitous edge devices like mobile phones or IOT devices as well as across larger devices and organizations. 
 <br /><br />
     
