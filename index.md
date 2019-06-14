@@ -8,7 +8,8 @@ Split learning naturally allows for various configurations of cooperating entiti
 <h4> Team </h4>
     Ramesh Raskar, Associate Professor, MIT Media Lab; Project Director (raskar(at)mit.edu)<br/>
     Praneeth Vepakomma,Research Assitant, MIT Media Lab<br/>
-<strong> Current Collaborations </strong>
+    </br>
+<strong> Current Collaborations </strong><br/>
     MGH <br/>
     Martinos Center<br/>
 <br/>
@@ -37,19 +38,18 @@ distributed split learning network is trained without looking at each others raw
 
 <h3 id="faq"> Frequently asked questions </h3>
 1. <strong>How does split learning work and what is new in our approach? </strong><br/>
-    Split learning attains high resource efficiency for distributed deep learning in comparison to existing methods by splitting the models architecture across distributed entities. It only communicates activations and gradients just from the split layer unlike other popular methods that share weights/gradients from all the layers. Split learning requires no raw data sharing; either of labels or features.<br/>
+    Split learning attains high resource efficiency for distributed deep learning in comparison to existing methods by splitting the models architecture across distributed entities. It only communicates activations and gradients just from the split layer unlike other popular methods that share weights/gradients from all the layers. Split learning requires no raw data sharing; either of labels or features.<br />
 
 2. <strong>How is raw data protected? </strong><br/>
-    Split learning requires absolutely no raw data sharing <i>(and also add in advantages compared to other methods of encryption or ob
-    fuscation)</i>. <br/> 
+    Split learning requires absolutely no raw data sharing <i>(and also add in advantages compared to other methods of encryption or obfuscation)</i>. <br /> 
     
-3. <strong>Who can get positively impacted? </strong><br/>
+3. <strong>Who can get positively impacted? </strong><br />
     Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br />
     
 4.<strong>How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
 The approach is easily deployable for inter and intra entity or organizational collaboration and is highly versatile in terms of possible network topologies. Due to its high resource efficiency in terms of computations, memory, communication bandwidth it is also naturally suitable for distributed learning where the clients are pervasive and ubiquitous edge devices like mobile phones or IOT devices as well as across larger devices and organizations. 
 <br />
-    
+ <br/>   
 
 <h3 id="fr"> Further reading </h3>
 <h4> Split Learning Papers </h4>
@@ -63,9 +63,9 @@ The approach is easily deployable for inter and intra entity or organizational c
 2. Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1611.02167.pdf ">[PDF]</a> (2017) <br/>
 
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h5>  Slides on split learning for data transparent ML </h5> </a></p>
-<br /><br />
+<br />
 
-<h3 id="ut"> <strong> Upcoming: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”</strong></h3>
+<h3 id="ut"> <strong> <font color='red'>Upcoming</font>: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”</strong></h3>
 We are giving a half-day tutorial at CVPR 2019: 
 On Distributed Private Machine Learning for Computer Vision: Federated Learning, Split Learning and Beyond by
 <b> Brendan McMahan (Google, USA)</b>, <b>Jakub Konečný</b> (Google, USA), <b>Otkrist Gupta (LendBuzz)</b>, <b>Ramesh Raskar</b> (MIT Media Lab, Cambridge, Massachusetts, USA),<b> Hassan Takabi</b> (University of North Texas, Texas, USA) and <b>Praneeth Vepakomma</b> (MIT Media Lab, Cambridge, Massachusetts, USA).
