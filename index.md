@@ -37,31 +37,40 @@ distributed split learning network is trained without looking at each others raw
 - [News](#news)
 
 <h3 id="faq"> Frequently asked questions </h3>
-1. <strong>How does split learning work and what is new in our approach? </strong><br/>
+<ol>
+<li> <strong>How does split learning work and what is new in our approach? </strong><br/>
     Split learning attains high resource efficiency for distributed deep learning in comparison to existing methods by splitting the models architecture across distributed entities. It only communicates activations and gradients just from the split layer unlike other popular methods that share weights/gradients from all the layers. Split learning requires no raw data sharing; either of labels or features.<br />
-
-2. <strong>How is raw data protected? </strong><br/>
+    </li><br /> 
+<li>
+<strong>How is raw data protected? </strong><br/>
     Split learning requires absolutely no raw data sharing <i>(and also add in advantages compared to other methods of encryption or obfuscation)</i>. <br /> 
-    
-3. <strong>Who can get positively impacted? </strong><br />
+    </li><br /> 
+    <li>
+<strong>Who can get positively impacted? </strong><br />
     Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br />
-    
-4.<strong>How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
+    </li><br /> 
+    <li>
+<strong>How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
 The approach is easily deployable for inter and intra entity or organizational collaboration and is highly versatile in terms of possible network topologies. Due to its high resource efficiency in terms of computations, memory, communication bandwidth it is also naturally suitable for distributed learning where the clients are pervasive and ubiquitous edge devices like mobile phones or IOT devices as well as across larger devices and organizations. 
+    </li><br /> 
+    </ol>
 <br />
  <br/>   
 
 <h3 id="fr"> Further reading </h3>
 <h4> Split Learning Papers </h4>
-1. Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019) <i> add in ref here </i><br/>
-2. Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, <a href="https://www.sciencedirect.com/science/article/pii/S1084804518301590">[PDF]</a> (2018) (2018)<br/>
-3. Split learning for health: Distributed deep learning without sharing raw patient data, Praneeth Vepakomma, Otkrist Gupta, Tristan Swedish, Ramesh Raskar,<a href="https://arxiv.org/pdf/1812.00564.pdf ">[PDF]</a> (2018)<br/>
-4. Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, <a href="https://arxiv.org/pdf/1812.03288.pdf ">[PDF]</a> (2018)<br/>
-
+<ul>
+<li>Reducing leakage in distributed deep learning for sensitive health data, Praneeth Vepakomma, Otkrist Gupta, Abhimanyu Dubey, Ramesh Raskar, Accepted to ICLR 2019 Workshop on AI for social good. (2019) <i> add in ref here </i><br/>
+</li>
+    <li>Distributed learning of deep neural network over multiple agents, Otkrist Gupta and Ramesh Raskar, In: Journal of Network and Computer Applications 116, <a href="https://www.sciencedirect.com/science/article/pii/S1084804518301590">[PDF]</a> (2018) (2018)<br/></li>
+<li>Split learning for health: Distributed deep learning without sharing raw patient data, Praneeth Vepakomma, Otkrist Gupta, Tristan Swedish, Ramesh Raskar,<a href="https://arxiv.org/pdf/1812.00564.pdf ">[PDF]</a> (2018)<br/></li>
+<li>Survey paper: No Peek: A Survey of private distributed deep learning, Praneeth Vepakomma, Tristan Swedish, Ramesh Raskar, Otkrist Gupta, Abhimanyu Dubey, <a href="https://arxiv.org/pdf/1812.03288.pdf ">[PDF]</a> (2018)<br/> </li>
+</ul>
+<ul>
 <h4> AutoML Papers </h4>
-1. Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1705.10823.pdf ">[PDF]</a> (2018) <br/>
-2. Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1611.02167.pdf ">[PDF]</a> (2017) <br/>
-
+<li>Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1705.10823.pdf ">[PDF]</a> (2018) <br/></li>
+<li>Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1611.02167.pdf ">[PDF]</a> (2017) <br/></li>
+</ul>
 <p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h5>  Slides on split learning for data transparent ML </h5> </a></p>
 <br />
 
