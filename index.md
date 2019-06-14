@@ -8,7 +8,7 @@ Split learning naturally allows for various configurations of cooperating entiti
 <h4> Team </h4>
     Ramesh Raskar, Associate Professor, MIT Media Lab; Project Director (raskar(at)mit.edu)<br/>
     Praneeth Vepakomma,Research Assitant, MIT Media Lab<br/>
-<h5> Current Collaborations </h5>
+<strong> Current Collaborations </strong>
     MGH <br/>
     Martinos Center<br/>
 <br/>
@@ -39,13 +39,14 @@ distributed split learning network is trained without looking at each others raw
 1. <strong>How does split learning work and what is new in our approach? </strong><br/>
     Split learning attains high resource efficiency for distributed deep learning in comparison to existing methods by splitting the models architecture across distributed entities. It only communicates activations and gradients just from the split layer unlike other popular methods that share weights/gradients from all the layers. Split learning requires no raw data sharing; either of labels or features.<br/>
 
-2. <strong> How is raw data protected? </strong><br/>
-    Split learning requires absolutely no raw data sharing <i>(and also add in advantages compared to other methods of encryption or objfuscation)</i>. <br/> 
+2. <strong>How is raw data protected? </strong><br/>
+    Split learning requires absolutely no raw data sharing <i>(and also add in advantages compared to other methods of encryption or ob
+    fuscation)</i>. <br/> 
     
-3. <strong> How is raw data protected and who can get positively impacted? </strong><br/>
-    Split learning requires absolutely no raw data sharing. Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br />
+3. <strong>Who can get positively impacted? </strong><br/>
+    Sectors like healthcare, finance, security, surveillance and others where data sharing is prohibited will benefit from our approach for training distributed deep learning models. Another modality of split learning called NoPeek SplitNN also drastically reduces leakage due to any communicated activations by reducing their distance correlation with raw data while maintaining model performance via categorical cross-entropy.<br />
     
-3.<strong> How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
+4.<strong>How long will it take to transition from laboratory setting to actual deployment between cooperating entities?<br/></strong>
 The approach is easily deployable for inter and intra entity or organizational collaboration and is highly versatile in terms of possible network topologies. Due to its high resource efficiency in terms of computations, memory, communication bandwidth it is also naturally suitable for distributed learning where the clients are pervasive and ubiquitous edge devices like mobile phones or IOT devices as well as across larger devices and organizations. 
 <br />
     
