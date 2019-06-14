@@ -1,4 +1,4 @@
-<add in camera culture logo>
+<add in camera culture and MIT logo in the header>
     
 # Split Learning : Distributed deep learning without sharing raw data #
 <p align="center"><a href=""><img src="https://splitlearning.github.io/diab1.png" height="320" width="600"></a></p>
