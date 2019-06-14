@@ -34,6 +34,7 @@ distributed split learning network is trained without looking at each others raw
 - [Upcoming tutorial](#ut)
 - [Further Reading](#fr)
 - [Efficiency and plug-and-play configurations of split learning](#sl)
+- [Contact Us](#cu) <---------------add here
 - [News](#news)
 
 <h3 id="faq"> Frequently asked questions </h3>
@@ -54,8 +55,7 @@ distributed split learning network is trained without looking at each others raw
 The approach is easily deployable for inter and intra entity or organizational collaboration and is highly versatile in terms of possible network topologies. Due to its high resource efficiency in terms of computations, memory, communication bandwidth it is also naturally suitable for distributed learning where the clients are pervasive and ubiquitous edge devices like mobile phones or IOT devices as well as across larger devices and organizations. 
     </li><br /> 
     </ol>
-<br />
- <br/>   
+<br/> 
 
 <h3 id="fr"> Further reading </h3>
 <h4> Split Learning Papers </h4>
@@ -71,7 +71,7 @@ The approach is easily deployable for inter and intra entity or organizational c
 <li>Accelerating neural architecture search using performance prediction, Bowen Baker, Otkrist Gupta, Ramesh Raskar, Nikhil Naik, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1705.10823.pdf ">[PDF]</a> (2018) <br/></li>
 <li>Designing neural network architecture using reinforcement learning, Bowen Baker, Otkrist Gupta, Nikhil Naik & Ramesh Raskar, In: conference paper at ICLR,<a href="https://arxiv.org/pdf/1611.02167.pdf ">[PDF]</a> (2017) <br/></li>
 </ul>
-<p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h5>  Slides on split learning for data transparent ML </h5> </a></p>
+<p align="center"><a href="https://www.slideshare.net/cameraculture/split-learning-versus-federated-learning-for-data-transparent-ml"><h4>  Slides on split learning for data transparent ML </h4> </a></p>
 <br />
 
 <h3 id="ut"> <strong> <font color='red'>Upcoming</font>: CVPR Tutorial on “Distributed Private Machine Learning for Computer Vision: Federated Learning and Beyond”</strong></h3>
